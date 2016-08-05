@@ -1,9 +1,9 @@
 {
-  "name": "weather",
+  "name": "github-searh",
   "description": "",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/NikiGarner/github-search",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,8 +12,12 @@
     "tests"
   ],
   "dependencies": {
-  "jquery": "^3.1.0",
-  "bootstrap": "^3.3.7",
-  "moment": "^2.14.1"
-}
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.14.1"
+  },
+  "authors": [
+    "nbarfield5@gmail.com"
+    "<nbarfield5@gmail.com>"
+  ]
 }
