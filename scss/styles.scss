@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 $radius: 5px;
+$top: 50px;
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -26,23 +27,30 @@ body {
       }
     }
     .search{
-      margin-top: 50px;
+      margin-top: $top;
     }
     #name {
       border-radius: $radius;
       margin-left: 10px;
       margin-right: 10px;
     }
-    #btn {
+    .btn-success {
       background: #F4E04D;
       border: #F4E04D;
       border-radius: $radius;
     }
     #break {
-      margin-top: 50px;
+      margin-top: $top;
       border: 1px solid grey;
+      background: grey;
       width: 50%;
       height: 1px;
+    }
+    .results {
+      margin-top: $top;
+      a {
+        color: #F4E04D;
+      }
     }
   }
 }

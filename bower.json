@@ -3,7 +3,7 @@
   "description": "",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "https://github.com/NikiGarner/github-search",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,9 +15,5 @@
     "jquery": "^3.1.0",
     "bootstrap": "^3.3.7",
     "moment": "^2.14.1"
-  },
-  "authors": [
-    "nbarfield5@gmail.com"
-    "<nbarfield5@gmail.com>"
-  ]
+  }
 }
